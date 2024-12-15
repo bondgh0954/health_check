@@ -22,5 +22,12 @@ There python boto library is utilized in creating a script that checks the healt
 # Step 1
 create 3 EC2 instances on aws 
 
+import the boto3 library in python and call the client function on the library
+
+       import boto3 as bt
+       client = bt.client('ec2')
+       
+       
+
 
 
