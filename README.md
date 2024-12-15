@@ -48,8 +48,10 @@ Writing schduled task to automatically run the script within certain time interv
            import schedule
    configure the schedule to run the script every hour
 
-          while True:
+          
             schedule.very(1).hour.do(function_name)
+            while True:
+                schedule.run_pending()
 
 
 
