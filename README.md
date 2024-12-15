@@ -26,6 +26,10 @@ import the boto3 library in python and call the client function on the library
 
        import boto3 as bt
        client = bt.client('ec2')
+
+call the describe_instances function on the client and without passing in parameters list all available instances
+
+       my_instances = client.describe_instances()
        
        
 
