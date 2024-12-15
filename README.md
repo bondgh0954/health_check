@@ -20,7 +20,7 @@ EC2 instances need some time to initialize there is the need to know which insta
 There python boto library is utilized in creating a script that checks the health of the EC2 instances.
 
 # Steps
-create 3 EC2 instances on aws 
+Writing a script that fetches ec2 information  
 
 import the boto3 library in python and call the client function on the library
 
@@ -37,9 +37,28 @@ Loop through the Reservations which containers list of instances and by using th
 NB: Details of code can be found in main.py file in the repo:
 
 
+step 2
+Writing schduled task to automatically run the script within certain time interval
+
+1. Add a schedular library to the project
+
+   install schedule library in python and import the library in python
+
+           pip install schedule
+           import schedule
+   configure the schedule to run the script every hour
+
+          while True:
+            schedule.very(1).hour.do(function_name)
+
+
+
 
 
 <img src='./Screenshot from 2024-12-15 11-01-57.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+
+
 
 
 
