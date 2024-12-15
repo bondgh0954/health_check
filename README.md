@@ -37,7 +37,7 @@ Loop through the Reservations which containers list of instances and by using th
 NB: Details of code can be found in main.py file in the repo:
 
 
-
+<img src='./Screenshot from 2024-12-15 11-01-57.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 Screenshot from 2024-12-15 11-01-57.png
 
